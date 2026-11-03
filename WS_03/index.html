@@ -19,7 +19,7 @@
     <h1 style="color: rgb(103, 130, 218);">Welcome to my first page</h1>
     <p>This is a paragraph.</p>
 
-    <img src="Minä pfp CSS.jpeg" alt="Selfie of Me" width="300" height="400">
+    <img src="Minä pfp CSS.jpeg" alt="Selfie of Me" width="300" height="400" class ="filter-image">
 
     <h2>My hobbies list</h2>
     <ol>
@@ -61,18 +61,18 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="email"><br><br>
 
-        <input type="submit" value="Submit">
-    </form>
-</body>
-</html>
-<button class="transition-button">Hover me</button>
-.transition-button {
+        <input type="submit" value="Submit">    
+</form>
+
+ <button class="transition-button">Hover me</button>
+ .transition-button {
         background-color: lightblue;
         padding: 10px 20px;
         border: none;
         cursor: pointer;
         transition: background-color 0.3s ease;
       }
+      
       .transition-button:hover {
         background-color: lightcoral;
       }
@@ -106,14 +106,13 @@
       .pseudo-list li:nth-child(even) {
         background-color: white;
       }
-      <img src="Minä pfp CSS.jpeg" alt="Mun kuva" class="filter image">
       .filter-image {
         filter: grayscale(100%);
         transition: filter 0.3s ease;
       }
       
       .filter-image:hover {
-        filter: grayscale(100%);
+        filter: grayscale(0%);
       }
       <blockquote class="quote">
         This is a sample quote.
@@ -132,3 +131,6 @@
         top: 0;
         color: lightgray;
       }
+
+</body>
+</html>

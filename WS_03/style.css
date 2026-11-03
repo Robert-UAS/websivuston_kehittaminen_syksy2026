@@ -48,7 +48,7 @@ table {
     }
     
     input[type="submit"] {
-      background-color: #fafdfb;
+      background-color: #4CAF50;
       color: white;
       padding: 10px;
       border: none;
@@ -57,5 +57,5 @@ table {
     }
     
     input[type="submit"]:hover {
-      background-color: #f3f7f3;
+      background-color: #45a049;
     }
