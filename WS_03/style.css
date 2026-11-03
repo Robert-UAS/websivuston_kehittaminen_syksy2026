@@ -80,7 +80,7 @@ table {
       
       @keyframes move {
         from {
-          left: 0;
+          left: 20px;
         }
         to {
           left: 100px;
