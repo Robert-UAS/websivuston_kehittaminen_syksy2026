@@ -75,7 +75,7 @@ table {
         height: 50px;
         background-color: lightgreen;
         position: relative;
-        animation: move 2s infinite alternate;
+        animation: move 1s infinite alternate;
       }
       
       @keyframes move {
@@ -88,11 +88,11 @@ table {
       }
     
       .pseudo-list li:nth-child(odd) {
-        background-color: lightgray;
+        background-color: rgb(219, 118, 118);
       }
       
       .pseudo-list li:nth-child(even) {
-        background-color: white;
+        background-color: rgb(69, 20, 20);
       }
       .filter-image {
         filter: grayscale(100%);
@@ -115,5 +115,5 @@ table {
         position: absolute;
         left: 0;
         top: 0;
-        color: lightgray;
+        color: rgb(38, 99, 110);
       }
