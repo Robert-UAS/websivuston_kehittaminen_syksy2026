@@ -3,7 +3,7 @@ p {
     }
     
     body {
-      background-color: lightgray;
+      background-color: rgb(255, 255, 255);
     }
     
     h1 {
@@ -13,8 +13,8 @@ p {
 .content-box {
   padding: 20px;
   margin: 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border: 1px solid #d03131;
 }
 table {
       width: 100%;
@@ -28,14 +28,14 @@ table {
     }
     
     th {
-      background-color: #f2f2f2;
+      background-color: #ac6969;
     }
     
     form {
       display: flex;
       flex-direction: column;
       gap: 10px;
-    }
+     }
     
     label {
       font-weight: bold;
@@ -89,10 +89,12 @@ table {
     
       .pseudo-list li:nth-child(odd) {
         background-color: rgb(219, 118, 118);
+        max-width: 400px;
       }
       
       .pseudo-list li:nth-child(even) {
-        background-color: rgb(69, 20, 20);
+        background-color: rgb(232, 223, 139);
+        max-width: 400px;
       }
       .filter-image {
         filter: grayscale(100%);
