@@ -1,80 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <div class="content-box">
-  <h3>Sample Heading</h3>
-  <p>This is a sample paragraph inside a div element.</p>
-</div>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first HTML page</title>
-    <style>
-         h1 {
-      color: rgb(76, 138, 203);
-    }
-    </style>
-</head>
-<body>
-    <h1 style="color: rgb(103, 130, 218);">Welcome to my first page</h1>
-    <p>This is a paragraph.</p>
-
-    <img src="Minä pfp CSS.jpeg" alt="Selfie of Me" width="300" height="400" class ="filter-image">
-
-    <h2>My hobbies list</h2>
-    <ol>
-        <li>Reading</li>
-        <li>Gym</li>
-        <li>Playing Guitar</li>
-    </ol>
-
-    <h2>Languages I speak</h2>
-    <ul>
-        <li>English</li>
-        <li>Thai</li>
-        <li>Finnish</li>
-    </ul>
-
-    <a href="https://www.tori.fi/" target="_blank" rel="noopener noreferrer">Tori.fi</a>
-
-    <table>
-        <tr>
-            <th>Courses</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>Professional Communication in English</td>
-            <td>Ongoing</td>
-        </tr>
-        <tr>
-            <td>Website Development</td>
-            <td>Ongoing</td>
-        </tr>
-    </table>
-
-    <form action="#" method="post">
-        <h2>Contact Form</h2>
-
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-
-        <input type="submit" value="Submit">    
-</form>
-
- <button class="transition-button">Hover me test button</button>
-
-    <blockquote class="quote">
-        This is a sample quote.
-      </blockquote>
-       <ul class="pseudo-list">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <h1>My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <div class="animation-box"></div>
-</body>
+    </nav><img src="./image.png" alt="Shrek" width="100" height="100" class="image" />
+  </head>
+  <body>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>This is a paragraph about me.</p>
+      </section>
+    </main>
+
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+    </div>
+    <div class="flex-container">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+    <div class="responsive-box">Resize the window to see the effect</div>
+    <footer>
+      <p>Copyright 2025</p>
+    </footer>
+  </body>
 </html>
